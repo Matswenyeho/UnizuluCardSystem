@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "282188130027",
+    "project_id": "unizulucardsystem-b1279",
+    "storage_bucket": "unizulucardsystem-b1279.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282188130027:android:3ec262632ba5825681c0ae",
+        "android_client_info": {
+          "package_name": "com.example.unizulucardsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDEcK6F-d4vaXmOIJIVj8yWITKF9VktNRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

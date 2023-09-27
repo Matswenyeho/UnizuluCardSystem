@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/lost_card"
+        android:id="@+id/menu_lostcard"/>
+    <item android:title="@string/logout"
+        android:id="@+id/menu_logout"/>
+    <item android:title="@string/dowload_card"
+        android:id="@+id/menu_download"/>
+</menu>

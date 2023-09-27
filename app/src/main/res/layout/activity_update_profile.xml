@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfileActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="245dp"
+            android:layout_height="281dp"
+            android:id="@+id/image"
+            android:layout_gravity="center"
+            android:background="@drawable/img_1"
+            android:contentDescription="@string/todo" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:layout_margin="6dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updateprofile"
+            android:text="@string/update_profile"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:textStyle="italic|bold"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/green"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updatefirstname"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/firstname"
+            android:layout_below="@+id/updateprofile"
+            android:layout_marginTop="30dp"/>
+
+
+        <EditText
+            android:id="@+id/editTextupdatefirstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updatefirstname"
+            android:layout_marginTop="5dp"
+            android:hint="@string/upadate_your_names"
+            android:background="@drawable/shape"
+            android:inputType="textPersonName"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/updatesurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/surname"
+            android:layout_below="@id/editTextupdatefirstname"
+            android:layout_marginTop="10dp"
+
+            />
+        <EditText
+            android:id="@+id/editTextupdatesurname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updatesurname"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_your_surname"
+            android:background="@drawable/shape"
+            android:inputType="textPersonName"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/updatetittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/tittle"
+            android:layout_below="@id/editTextupdatesurname"
+            android:layout_marginTop="10dp"
+
+            />
+        <EditText
+            android:id="@+id/editTextupdateTittle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updatetittle"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_your_tittle"
+            android:background="@drawable/shape"
+            android:inputType="textPersonName"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/updateinitials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/initials"
+            android:layout_below="@id/editTextupdateTittle"
+            android:layout_marginTop="10dp"
+
+            />
+        <EditText
+            android:id="@+id/editTextupdateinitials"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updateinitials"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_your_initials"
+            android:background="@drawable/shape"
+            android:inputType="textPersonName"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/updateidentity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/identity_number"
+            android:layout_below="@id/editTextupdateinitials"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextupdateIdentity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updateidentity"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_your_identity_number"
+            android:background="@drawable/shape"
+            android:inputType="textPhonetic"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/updatestudentno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/student_number"
+            android:layout_below="@id/editTextupdateIdentity"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextupdatestudentno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updatestudentno"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_your_studebt_number"
+            android:background="@drawable/shape"
+            android:inputType="textPhonetic"
+            android:padding="6dp"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/updateres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/residential_address"
+            android:layout_below="@id/editTextupdatestudentno"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextupdateres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updateres"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_your_resident_name"
+            android:background="@drawable/shape"
+            android:inputType="text"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <TextView
+            android:id="@+id/updatephone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/phone_number"
+            android:layout_below="@id/editTextupdateres"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editTextupdatephone"
+            android:layout_below="@id/updatephone"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_your_phone_number"
+            android:background="@drawable/shape"
+            android:inputType="textPhonetic"
+            android:padding="6dp"
+            android:textSize="16sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/updatedegreetype"
+            android:layout_below="@id/editTextupdatephone"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:text="@string/degree_type"
+            android:padding="6dp"
+            android:textSize="20sp" />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updatedegreetype"
+            android:id="@+id/radio_group"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/updatepost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:buttonTint="@color/purple"
+                android:text="@string/post_grad"
+                android:textColor="#555555"
+                android:textSize="16sp" />
+
+            <RadioButton
+                android:id="@+id/updateunder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:buttonTint="@color/purple"
+                android:text="@string/under_grad"
+                android:textColor="#555555"
+                android:textSize="16sp" />
+
+        </RadioGroup>
+        <TextView
+            android:id="@+id/updateyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#555555"
+            android:text="@string/year"
+            android:layout_below="@id/updatedegreetype"
+            android:layout_marginTop="10dp"
+
+            />
+
+        <EditText
+            android:id="@+id/editTextupdateyear"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/updateyear"
+            android:layout_marginTop="10dp"
+            android:hint="@string/update_year"
+            android:background="@drawable/shape"
+            android:inputType="text"
+            android:padding="6dp"
+            android:textSize="16sp" />
+
+
+        <Button
+            android:id="@+id/updatebtn"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextupdateyear"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="50dp"
+            android:text="@string/update" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:elevation="10dp"
+            android:visibility="gone" />
+
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
